@@ -1,3 +1,1 @@
 # qTreeAPI
-edits
-analytics
