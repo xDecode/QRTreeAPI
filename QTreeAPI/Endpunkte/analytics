@@ -1,0 +1,30 @@
+GET /hourly
+Response https://138.201.175.62:8081/api/analytics/hourly
+[
+    {
+        "hour": 13,
+        "count": 1,
+        "qrcodeid": 502,
+        "urlid": 552
+    },
+    {
+            "hour": 9,
+            "count": 1,
+            "qrcodeid": 502,
+            "urlid": 552
+    }
+]
+GET /fullaccess/{id} https://138.201.175.62:8081/api/analytics/fullaccess/552
+Response
+[
+    {
+        "accessTime": "2024-06-06T09:39:54.553376",
+        "qrCodeId": 502,
+        "shortUrlId": 552
+    },
+    {
+        "accessTime": "2024-06-06T09:48:24.789644",
+        "qrCodeId": 502,
+        "shortUrlId": 552
+    }
+]

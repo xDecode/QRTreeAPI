@@ -1,0 +1,21 @@
+POST /create https://138.201.175.62:8081/api/account/create
+{
+    "name": "Icawdadddz",
+    "id": "aa793dd3-df2b-4ede8-9b21-a0e02ba9dddfdfd"
+}
+Response
+{
+    "id": "aa793dd3-df2b-4ede8-9b21-a0e02ba9dddfdfd",
+    "username": "Icawdadddz",
+    "active": true
+}
+GET {id}/deactivate https://138.201.175.62:8081/api/account/aa793dd3-df2b-4ede8-9b21-a0e02ba9dddfdfd/deactivate
+Response
+{
+    "text": "Successfull"
+}
+GET {id}/delete https://138.201.175.62:8081/api/account/aa793dd3-df2b-4ede8-9b21-a0e02ba9dddfdfd/delete
+Response
+{
+    "text": "Successfull"
+}

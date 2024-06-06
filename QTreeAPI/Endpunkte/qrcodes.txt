@@ -1,0 +1,32 @@
+POST /create https://138.201.175.62:8081/api/qrcodes/create
+{
+    "img": "PathToLogo",
+    "text": "Sample Text for QR Code",
+    "permalink": false,
+    "url": "http://example.com/mainlink",
+    "primaryColor": "#FF5733",
+    "textColor": "#3357FF",
+    "deactivated": false,
+    "accountId": "aa793dd3-df2b-4ee8-9b21-a0e02ba9fdfd"
+}
+Response
+{
+    "id": 552,
+    "img": "http://example.com/path/to/logo.pnggfgfg",
+    "text": "Sample Text for QR Code",
+    "mainlink": "http://example.com/mainlink",
+    "shortedlink": "8BGv0v820H",
+    "qrimg": "../../assets/qr/QRCode_1717666762639.svg",
+    "primarycolor": "#FF5733",
+    "textcolor": "#3357FF",
+    "deactivated": false,
+    "accountId": "aa793dd3-df2b-4ee8-9b21-a0e02ba9fdfd",
+    "permalink": false,
+    "shortUrlId": 602,
+    "deactivated2": true
+}
+GET {id}/deactivate https://138.201.175.62:8081/api/qrcodes/210/deactivate
+Response
+{
+    "text": "Successfull"
+}

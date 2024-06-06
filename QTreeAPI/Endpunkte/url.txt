@@ -1,0 +1,2 @@
+GET https://138.201.175.62:8081/api/url/wx8jCpXbLm
+Redirect zum Link
